@@ -1,0 +1,21 @@
+<div class="task-container">
+
+    <h4>
+        <span class="task-title">Task ID:</span> 
+        {{task.id}} 
+     </h4>
+     <h4>
+        <span class="task-title">User ID:</span>
+        {{task.userId}} 
+     </h4>
+    <h4>
+        <span class="task-title">Task Title:</span> 
+        {{task.title}}
+    </h4>
+    <h4>
+        <span class="task-title">Task Status:</span> 
+        <span class="{{ task.completed ? 'completed' : '' }}">
+            {{ task.completed ? 'Completed' : 'Uncompleted' }}
+        </span>
+    </h4>
+</div>
