@@ -1,0 +1,8 @@
+.tasks-container {
+    width: 1150px; 
+    margin-left:auto ;
+    margin-right: auto;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}

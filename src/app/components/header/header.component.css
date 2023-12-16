@@ -1,5 +1,19 @@
 header {
+    width: 200px;
     display: flex; 
+    justify-content: center;
     margin-bottom: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color:  #1283ceca;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 700px;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: white;
 }
